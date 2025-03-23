@@ -1,0 +1,54 @@
+.career {
+    max-width: 1200px;
+    padding: 40px;
+    margin: 40px auto;
+    background: linear-gradient(145deg, #ffffff, #f2f2f2);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .career h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    border-bottom: 2px solid #ddd;    
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .job {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 4px solid #656565;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-period {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #aeaeae;
+    margin-bottom: 10px;
+  }
+  
+  .job-company {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #505050;
+    margin-bottom: 15px;
+  }
+  
+  .job-details {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 20px;
+  }
+  
+  .job-details li {
+    margin-bottom: 8px;
+  }
+  

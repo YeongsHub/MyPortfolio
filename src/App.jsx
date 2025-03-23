@@ -2,7 +2,9 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
-import Contact from "./components/Contact";
+import Career from "./components/Career";
+import Education from "./components/Education";
+
 import { Routes, Route } from "react-router-dom";
 import ProjectDetail from './pages/ProjectDetail'; 
 
@@ -19,6 +21,8 @@ function App() {
          <AboutMe />
          <Skills />
          <Project />
+         <Career />
+         <Education />
         </>
       } />
       <Route path="/Header" element={<Header />} />
@@ -26,8 +30,10 @@ function App() {
       <Route path="/Skills" element={<Skills />} />
       <Route path="/project" element={<Project />} />
       <Route path="/detail/:id" element={<ProjectDetail /> } />
+      <Route path="/career" element={<Career />} />
+      <Route path="/education" element={<Education />} />
+
     </Routes>
-    <Contact />
     </div>
     </>
   )

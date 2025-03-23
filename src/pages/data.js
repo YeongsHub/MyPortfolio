@@ -9,9 +9,9 @@ import project2_namesetting from '../assets/projectfotos/project2_namesetting.pn
 import project2_TimeMeasure from '../assets/projectfotos/project2_TimeMeasure.png';
 import project2_timesup from '../assets/projectfotos/project2_timesup.png';
 
-import project3_main from '../assets/projectfotos/project3_main.png';
-import project3_login from '../assets/projectfotos/project3_login.png';
-import project3_invalid from '../assets/projectfotos/project3_invalid.png';
+import project3p_main from '../assets/projectfotos/project3p_main.png';
+import project3p_techstack from '../assets/projectfotos/project3p_techstack.png';
+import project3p_projects from '../assets/projectfotos/project3p_projects.png';
 
 import project4_main from '../assets/projectfotos/project4_main.png';
 import project4_JSX from '../assets/projectfotos/project4_JSX.png';
@@ -30,8 +30,11 @@ import project6_after12 from '../assets/projectfotos/project6_after12.png';
 
 import project7_main from '../assets/projectfotos/project7_main.png';
 
-
 import project8_beatbox from '../assets/projectfotos/project8_beatbox.png';
+
+import project9_main0 from '../assets/projectfotos/project9_main0.png';
+import project9_login from '../assets/projectfotos/project3_login.png';
+import project9_invalid from '../assets/projectfotos/project3_invalid.png';
 
 
 const projects = [
@@ -47,6 +50,7 @@ const projects = [
       { imgurl: project1_addTask, subject: 'Add tasks' },
       { imgurl: project1_clearTask, subject: 'Clear tasks' },
     ],
+    tools: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     id: 1,
@@ -58,16 +62,18 @@ const projects = [
       { imgurl: project2_TimeMeasure, subject: 'Before timesUp' },
       { imgurl: project2_timesup, subject: 'Timeover' },
     ],
+    tools: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     id: 2,
-    name: 'Practice using Tailwind CSS',
-    subtext: 'A web site without functionality, using Tailwind CSS enabled quick and easy development',
-    imgurl: project3_main,
+    name: 'Portfolio',
+    subtext: 'My portfolio, showing my Techstack I use and the projects that I have built.',
+    imgurl: project3p_main,
     detailimginfo: [
-      { imgurl: project3_login, subject: 'Login function' },
-      { imgurl: project3_invalid, subject: 'If the email address is invalid' },
+      { imgurl: project3p_techstack, subject: 'Techstack page' },
+      { imgurl: project3p_projects, subject: 'Small projects collection' },
     ],
+    tools: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     id: 3,
@@ -79,6 +85,7 @@ const projects = [
       { imgurl: project4_props, subject: 'Explaination props' },
       { imgurl: project4_state, subject: 'Explaination state' },
     ],
+    tools: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     id: 4,
@@ -90,6 +97,7 @@ const projects = [
       { imgurl: project5_gameStart, subject: 'Game start' },
       { imgurl: project5_gameover, subject: 'Game over' },
     ],
+    tools: ['HTML', 'Tailwind CSS', 'JavaScript', 'React']
   },
   {
     id: 5,
@@ -101,6 +109,7 @@ const projects = [
       { imgurl: project6_after2, subject: 'How much is the return after two year?' },
       { imgurl: project6_after12, subject: 'How much is the return after twelve year?' },
     ],
+    tools: ['HTML', 'Tailwind CSS', 'JavaScript', 'React']
   },
   {
     id: 6,
@@ -111,6 +120,7 @@ const projects = [
 
 
     ],
+    tools: ['Java', 'Java swing', 'Web Socket']
   },
   {
     id: 7,
@@ -121,6 +131,18 @@ const projects = [
 
 
     ],
+    tools: ['Java', 'Java swing', 'Web Socket']
+  },
+  {
+    id: 8,
+    name: 'Practice using Tailwind CSS',
+    subtext: 'A web site without functionality, using Tailwind CSS enabled quick and easy development',
+    imgurl: project9_main0,
+    detailimginfo: [
+      { imgurl: project9_login, subject: 'Login function' },
+      { imgurl: project9_invalid, subject: 'If the email address is invalid' },
+    ],
+    tools: ['HTML', 'Tailwind CSS', 'JavaScript', 'React']
   },
 ];
 

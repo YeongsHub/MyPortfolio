@@ -40,25 +40,40 @@ export default function ProjectDetail() {
         />
       </div>
 
-<br/>
-      <h3>Sub-Pages</h3>
-      <div className="project-detail-images">        
-        {project.detailimginfo.map((item, index) => (
-          <div key={index} className="detail-image-item">
-            <img
-              src={item.imgurl}
-              alt={item.subject}
-              onClick={() => handleImageClick(item.imgurl)}
-            />
-            <p className="image-caption">{item.subject}</p>
+
+      {project.detailimginfo && project.detailimginfo.length > 0 ? (
+        <>
+          <h3>Sub-Pages</h3>
+          <div className="project-detail-images">        
+            {project.detailimginfo.map((item, index) => (
+              <div key={index} className="detail-image-item">
+                <img
+                  src={item.imgurl}
+                  alt={item.subject}
+                  onClick={() => handleImageClick(item.imgurl)}
+                />
+                <p className="image-caption">{item.subject}</p>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </>
+      ) : (
+        <>
+        <h3>Sub-Pages</h3>
+        <p>Backend project without separate subpages.</p>
+        </>
+      )}
 
       
-      <div>
-      <h3>Used Tools</h3><br/>
-
+      <h3>Used Tools</h3>
+      <div className="project-tools">
+        {project.tools && project.tools.length > 0 ? (
+          project.tools.map((tool, index) => (
+            <span key={index} className="tool">{tool}</span>
+          ))
+        ) : (
+          <p>No tools specified.</p>
+        )}
       </div>
 
       <HashLink to="/#AboutMe" className="back-link back-link-first">Back to Main</HashLink>

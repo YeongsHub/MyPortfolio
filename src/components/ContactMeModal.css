@@ -1,0 +1,10 @@
+.custom-modal {
+    z-index: 1055 ; 
+    margin-top: 55px; 
+  }
+  
+  .custom-backdrop {
+    z-index: 0 ;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  

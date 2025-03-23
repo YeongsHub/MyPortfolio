@@ -26,7 +26,7 @@ function ProjectItem({ project }) {
         <Card.Title>{project.name}</Card.Title>
         <Card.Text>{project.subtext}</Card.Text>
         <Link to={`/detail/${project.id}`}>
-          <Button>See details</Button>
+          <Button className="button">See details</Button>
         </Link>
       </Card.Body>
     </div>

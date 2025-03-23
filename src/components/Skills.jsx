@@ -9,6 +9,7 @@ import tailwindIcon from '../assets/tailwind.png';
 import jsIcon from '../assets/javascript.png';
 import tsIcon from '../assets/typescript.png';
 
+import mySQLIcon from '../assets/mysql.png';
 import javaIcon from '../assets/java.png';
 import springIcon from '../assets/spring-boot.png';
 
@@ -19,24 +20,24 @@ import figmaIcon from '../assets/figma.png';
 import photoshopIcon from '../assets/photoshop.png';
 
 import gitIcon from '../assets/git.png';
-import githubIcon from '../assets/github.png';
+import azureIcon from '../assets/azure.svg';
 import vercelIcon from '../assets/vercel.svg';
 import kibanaIcon from '../assets/kibana.png';
+import postmanIcon from '../assets/postman.png';
+
 
 export default function Skills() {
     return(
         <Stack id="Skills" direction="vertical" gap={2}><h1>Skills</h1>
             <div>
-          <h2><Col>Front-End</Col></h2>
+          <h2><Col>Frontend</Col></h2>
           <h3><Badge bg="light" text="dark">
             <img src={htmlIcon} alt="HTML Icon" className="skill-icon" />
           HTML</Badge></h3>
           <h3><Badge bg="light" text="dark">            
             <img src={cssIcon} alt="CSS Icon" className="skill-icon" />
           CSS</Badge></h3>
-          <h3><Badge bg="light" text="dark">            
-            <img src={tailwindIcon} alt="Tailwind CSS Icon" className="skill-icon" />
-          Tailwind CSS</Badge></h3>
+
           <h3><Badge bg="light" text="dark">            
             <img src={jsIcon} alt="Javascript Icon" className="skill-icon" />
           JavaScript</Badge></h3>
@@ -45,22 +46,28 @@ export default function Skills() {
           TypeScript</Badge></h3>
           </div>
           <div>
-          <h2><Col>Back-End</Col></h2>
+          <h2><Col>Backend / Database</Col></h2>
           <h3><Badge bg="light" text="dark">            
             <img src={javaIcon} alt="Java Icon" className="skill-icon" />
           Java</Badge></h3>
           <h3><Badge bg="light" text="dark">            
-            <img src={springIcon} alt="Springboot Icon" className="skill-icon" />
-          SpringBoot</Badge></h3>
+            <img src={mySQLIcon} alt="MySQL Icon" className="skill-icon" />
+          MySQL</Badge></h3>
           </div>
           <div>
-          <h2><Col>Framework</Col></h2>
+          <h2><Col>Frameworks / Libraries</Col></h2>
+          <h3><Badge bg="light" text="dark">            
+            <img src={springIcon} alt="Springboot Icon" className="skill-icon" />
+          Spring Boot</Badge></h3>
           <h3><Badge bg="light" text="dark">            
             <img src={reactIcon} alt="React Icon" className="skill-icon" />
           ReactJS</Badge></h3>
           <h3><Badge bg="light" text="dark">            
             <img src={bootstrapIcon} alt="Bootstrap Icon" className="skill-icon" />
           Bootstrap</Badge></h3>
+          <h3><Badge bg="light" text="dark">            
+            <img src={tailwindIcon} alt="Tailwind CSS Icon" className="skill-icon" />
+          Tailwind CSS</Badge></h3>
           </div>
             <div>
         <h2><Col>Design</Col></h2>
@@ -77,12 +84,14 @@ export default function Skills() {
             <img src={gitIcon} alt="Git Icon" className="skill-icon" />
           Git</Badge></h3>
           <h3><Badge bg="light" text="dark"> 
-          <img src={githubIcon} alt="Github Icon" className="skill-icon" />
-           
-          GitHub</Badge></h3>
+          <img src={azureIcon} alt="azureDevOps Icon" className="skill-icon" />
+          Azure DevOps</Badge></h3>
           <h3><Badge bg="light" text="dark">            
             <img src={vercelIcon} alt="Vercel Icon" className="skill-icon" />
           Vercel</Badge></h3>
+          <h3><Badge bg="light" text="dark">            
+            <img src={postmanIcon} alt="postman Icon" className="skill-icon" />
+          Postman</Badge></h3>
           <h3><Badge bg="light" text="dark">   
           <img src={kibanaIcon} alt="Kibana Icon" className="skill-icon" />
           Kibana</Badge></h3>

@@ -24,12 +24,12 @@ const germanMe = [
   {
     title: "Problemlösung",
     content:
-      "Das Lösen unterschiedlicher Probleme und das Finden neuer Ansätze motivieren mich. Außerdem überprüfe ich gerne Key Performance Indicators, um zu sehen, wie meine Entwicklung dem Geschäft zugutekommt.",
+      "Verschiedene Probleme zu lösen und neue Ansätze zu finden, motiviert mich. Es macht mir auch Spaß, Leistungsindikatoren zu überprüfen, um zu sehen, wie meine Entwicklung zum Geschäftserfolg beiträgt.",
   },
   {
     title: "Lernen und Wachstum",
     content:
-      "Da sich die Technologie ständig weiterentwickelt, möchte ich ein Entwickler sein, der in jedem Moment lernt und wächst. Ich genieße es, neue Technologien zu erlernen und mich durch vielfältige Erfahrungen weiterzuentwickeln.",
+      "Die Technologie verändert und entwickelt sich ständig; daher möchte ich eine Entwicklerin sein, der ständig lernt und wächst. Ich genieße es, neue Technologien zu erlernen und mich durch vielfältige Erfahrungen weiterzuentwickeln.",
   },
   {
     title: "User-Experience Entwicklung",
