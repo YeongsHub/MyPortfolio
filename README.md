@@ -1,12 +1,32 @@
-# React + Vite
+# Yeong's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository showcases my personal projects and work. Check out my projects to see what I've been working on.
 
-Currently, two official plugins are available:
+## Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit my portfolio website here:  
+[https://yeongsportfolio.vercel.app/](https://yeongsportfolio.vercel.app/)
 
-## Expanding the ESLint configuration
+## About Me
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I am **Yeong-Gyung**, currently living in Germany and originally from South Korea.
+
+## Projects
+
+
+For projects and details, please visit my [portfolio website](https://yeongsportfolio.vercel.app/).
+
+## Technologies
+
+Some of the technologies I commonly use include:
+
+- **Frontend**: HTML, CSS, JavaScript, typeScript, React, etc.
+- **Backend**: Java, Spring Boot etc.
+- **Tools & Others**: Git, Azure DevOps, Postman, etc.
+
+## Getting Started
+
+To run this portfolio locally, clone the repository using:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
