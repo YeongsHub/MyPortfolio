@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
+
 import Career from "./components/Career";
 import Education from "./components/Education";
 
@@ -32,8 +33,18 @@ function App() {
       <Route path="/detail/:id" element={<ProjectDetail /> } />
       <Route path="/career" element={<Career />} />
       <Route path="/education" element={<Education />} />
-
     </Routes>
+
+    <footer 
+        style={{ 
+          textAlign: 'center', 
+          padding: '1rem', 
+          marginTop: '2rem'
+        }}
+      >
+        <p>© 2025. Yeon-Gyung Wi. All rights reserved.</p>
+      </footer>
+
     </div>
     </>
   )

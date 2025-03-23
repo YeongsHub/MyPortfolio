@@ -35,7 +35,7 @@ const careerData = [
 export default function Career() {
   return (
     <div id="career" className="career">
-      <h2>Professional career</h2>
+      <h2>Professional Career</h2>
       {careerData.map((job, index) => (
         <div key={index} className="job">
           <h3 className="job-period">{job.period}</h3>

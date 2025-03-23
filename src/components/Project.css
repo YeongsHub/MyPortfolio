@@ -13,7 +13,7 @@ h1{
 .button {
     background-color: rgb(190, 186, 186);       
     cursor: pointer;          
-    border: none; 
+    border: none;   
     transition: background-color 0.3s ease;
   }
   

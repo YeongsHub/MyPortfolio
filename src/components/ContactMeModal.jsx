@@ -17,18 +17,20 @@ export default function ContactMeModal({ show, handleClose }) {
         <Modal.Title>Contact Me</Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <div className = "body-text">
         <p>
           <img src={gmailIcon} alt="Gmail" style={{ width: '28px', height: '20px' }} />
-           : <a href="mailto:wi10004ok@gmail.com">E-Mail</a>
+           : <a href="mailto:wi10004ok@gmail.com"  style={{ marginLeft: '8px' }}>wi10004ok@gmail.com</a>
         </p>
         <p>
           <img src={githubIcon} alt="GitHub" style={{ width: '28px', height: '28px' }} />
-          : <a href="https://github.com/YeongsHub" target="_blank" rel="noopener noreferrer">GitHub</a>
+          : <a href="https://github.com/YeongsHub" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '8px' }}>    YeongsHub</a>
         </p>
         <p>
           <img src={linkedinIcon} alt="LinkedIn" style={{ width: '28px', height: '25px' }} />
-          : <a href="https://www.linkedin.com/in/yeongyung-wi-143990100/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          : <a href="https://www.linkedin.com/in/yeongyung-wi-143990100/" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '8px' }}>    LinkedIn</a>
         </p>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
