@@ -18,7 +18,7 @@ For projects and details, please visit my [portfolio website](https://yeongsport
 
 ## Technologies
 
-Some of the technologies I commonly use include:
+Some of the technologies I can:
 
 - **Frontend**: HTML, CSS, JavaScript, typeScript, React, etc.
 - **Backend**: Java, Spring Boot etc.
